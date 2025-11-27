@@ -117,7 +117,6 @@ PRODUCT_PACKAGES += \
     libvideoutils \
     sensor_calibrate \
     sensors.ssc \
-    vendor.qti.hardware.fingerprint@1.0 \
     vendor.qti.hardware.sensorscalibrate@1.0 \
     camera.sdm660 \
     libFaceGrade \
@@ -345,14 +344,11 @@ PRODUCT_PACKAGES += \
     libtrueportrait \
     libvideobokeh \
     fingerprint.fpc.default \
-    libqfp-service \
     libthermalioctl \
-    FingerprintExtensionService \
-    QFingerprintService \
+    vendor.qti.hardware.fingerprint@1.0 \
     com.fingerprints.extension \
     cnss-daemon \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.keymaster@3.0-service-qti \
-    qfp-daemon \
     sensors.qti \
     thermal-engine
